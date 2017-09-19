@@ -1,0 +1,17 @@
+{
+  "name": "mysql-apostrophe",
+  "version": "1.0.5",
+  "description": "mysql-apostrophe is use to save in DB apostrophe without any error ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "apostrophe",
+    "sql",
+    "injection"
+  ],
+  "author": "Ashutosh Jha <ashutosh131991@gmail.com>",
+  "license": "ISC"
+}

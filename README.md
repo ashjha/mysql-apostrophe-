@@ -1,5 +1,9 @@
 # mysql-apostrophe 
 
+Whenever we want to save any field with apostophe in mysql, and we use syntex like 
+var query = `INSERT INTO table_name (column1) VALUES ('${var}');` ; 
+
+It will throw mysql error if your var is equals to alex's. This NPM is use to avoid this kind of errors. It is not working if you are sending data as JSON stringify.
 
 ## Example
 

@@ -1,6 +1,6 @@
 {
   "name": "mysql-apostrophe",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "mysql-apostrophe is use to save in DB apostrophe without any error ",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "sql",
     "injection"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashjha/mysql-apostrophe-"
+  },
   "author": "Ashutosh Jha <ashutosh131991@gmail.com>",
   "license": "ISC"
 }

@@ -9,7 +9,7 @@ It will throw mysql error if your var is equals to alex's. This NPM is use to av
 
 ``` js
 
-var apostrophe = require("mysql-apostrophe");
+var mysqlApostrophe = require("mysql-apostrophe");
 
 var express = require('express');
 var app = express();
@@ -18,7 +18,7 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.use(apostrophe); //must be after bodyparser
+app.use(mysqlApostrophe); //must be after bodyparser
 
 
 ```
